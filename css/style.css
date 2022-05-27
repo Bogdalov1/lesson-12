@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	color: #4B4B4B;
+}
+
+body {
+	line-height: 1;
+   font-family: "Roboto";
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+
+.roof{
+	position: relative;
+	display: inline-block;
+	border: 6px double red;
+	border-radius: 280px 208px 39px 38px / 150px 150px 17px 15px;
+	width: 400px;
+	height: 120px;
+	top: 250px;
+	left: 600px;
+}
+
+.frame{
+	display: inline-block;
+	border: 3px solid red;
+	border-radius: 400px 0px 39px 31px / 92px 55px 17px 84px;
+	position: relative;
+	width: 300px;
+	height: 120px;
+	top: 360px;
+	left: -100px;
+	border-bottom: none;
+}
+.back{
+	display: inline-block;
+		border: 3px solid red;
+		border-radius: 0px 316px 50px 0px / 66px 94px 25px 21px;
+		position: relative;
+		width: 200px;
+		height: 120px;
+		top: 360px;
+		left: 290px;
+		border-bottom: none;
+}
+.bottom {
+	display: inline-block;
+	position: relative;
+	background-color: red;
+	width: 485px;
+	height: 3px;
+	top: 360px;
+	left: -370px;
+}
+.wheel{
+	background-color: gray;
+	position: relative;
+	display: inline-block;
+	border: 20px solid black;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	top: 420px;
+	left: -360px;
+}
+.wheel-2{
+	background-color: gray;
+		position: relative;
+			display: inline-block;
+			border: 20px solid black;
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			top: 420px;
+			left: -1115px;
+}
+.wings {
+	position: relative;
+		display: inline-block;
+		border: 2px solid red;
+		width: 140px;
+		height: 70px;
+		border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+		top: 360px;
+		left: -1250px;
+		border-bottom: none;
+}
+
+.wings-2 {
+		position: relative;
+			display: inline-block;
+			border: 2px solid red;
+			width: 140px;
+			height: 70px;
+			border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+			top: 125px;
+			left: 1030px;
+			border-bottom: none;
+}
+.door{
+	display: inline-block;
+	position: relative;
+	left: 670px;
+	top: 125px;
+	background-color: red;
+	width: 3px;
+	height: 230px;
+}
